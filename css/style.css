@@ -6,6 +6,10 @@
 }
 /* /reset */
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .container{
   margin: auto;
   width: 80%;
@@ -38,7 +42,6 @@
   width: 55%;
   margin-top: 5px;
 }
-
 .main-nav ul{
   width: 100%;
 }
@@ -88,7 +91,7 @@
  height: 100%;
  object-fit: cover;
  margin-left: 20%;
-
+ margin-top: 5%;
 }
 
 .description-hero{
@@ -119,4 +122,16 @@
   clear: both;
 }
 /* /hero */
+
+/* section message */
+.message{
+  width: 100%;
+  height: 120px;
+  background-color: grey;
+  text-align: center;
+}
+
+
+/* /section message */
+
 /* /main */
