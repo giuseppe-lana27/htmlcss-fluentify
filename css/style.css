@@ -1,12 +1,16 @@
+/* reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /reset */
+
 .container{
   margin: auto;
-  width: 90%;
+  width: 80%;
 }
+/* header */
 .header-container{
   width: 100%;
   margin: auto;
@@ -21,16 +25,17 @@
   clear: both;
 }
 .logo{
-  width: 15%;
+  width: 10%;
   float: left;
-  line-height: middle;
+  margin-right: 1%;
 }
+
 .logo img{
-  width: 150px;
-  margin-right: 50px;
+  width: 100%;
 }
+
 .main-nav{
-  width: 65%;
+  width: 55%;
   margin-top: 5px;
 }
 
@@ -40,8 +45,13 @@
 
 .main-nav li, .login-nav li{
   float: left;
-  margin: 15px 15px;
+  margin: 2% 1%;
   list-style: none;
+  display: inline-block;
+}
+
+.main-nav ul li, .login-nav ul li{
+  display: inline-block;
 }
 
 .main-nav ul li a{
@@ -51,9 +61,10 @@
 }
 
 .login-nav {
-  width: 32%;
+  width: 40%;
   float: left;
-  margin-left: 15px;
+  margin-left: 1%;
+
 }
 
 .login-nav ul li a{
@@ -61,7 +72,8 @@
   color: white;
   text-transform: uppercase;
 }
-
+/* /header */
+/* main */
 /* hero */
 .hero{
   margin: auto;
@@ -75,28 +87,31 @@
  width: 80%;
  height: 100%;
  object-fit: cover;
+ margin-left: 20%;
 
 }
 
 .description-hero{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
-  transform: translateY(-50%);
-  width: 30%;
-  height: 50vh;
+  transform: translateY(-30%);
+  width: 35%;
+  margin-left: 5%;
+
 }
 .description-hero h1{
   font-size: 45px;
   color: white;
+  margin-bottom: 5%;
 }
 .description-hero a{
   text-decoration: none;
   color: white;
-  width: 10px;
-  height: 60px;
+  width: 30%;
   background-color: green;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 5px;
 }
 .hero::after{
   content: '';
@@ -104,3 +119,4 @@
   clear: both;
 }
 /* /hero */
+/* /main */
