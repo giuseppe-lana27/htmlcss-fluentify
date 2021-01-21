@@ -40,20 +40,15 @@ body{
 
 .main-nav{
   width: 55%;
-  margin-top: 5px;
+  margin: 1% 1%;
 }
 .main-nav ul{
   width: 100%;
 }
 
-.main-nav li, .login-nav li{
-  float: left;
-  margin: 2% 1%;
-  list-style: none;
-  display: inline-block;
-}
-
 .main-nav ul li, .login-nav ul li{
+  float: left;
+  list-style: none;
   display: inline-block;
 }
 
@@ -61,19 +56,30 @@ body{
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  margin-left: 25px;
 }
 
 .login-nav {
-  width: 40%;
+  width: 35%;
   float: left;
-  margin-left: 1%;
-
+  margin-left: 8%;
 }
 
 .login-nav ul li a{
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  margin-right: 25px;
+}
+
+.button{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.green{
+  background-color: #7CBB02;
+  border: none;
 }
 /* /header */
 /* main */
@@ -112,7 +118,7 @@ body{
   text-decoration: none;
   color: white;
   width: 30%;
-  background-color: green;
+  background-color: #7CBB02;
   padding: 15px;
   border-radius: 5px;
 }
