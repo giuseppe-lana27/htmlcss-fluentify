@@ -107,7 +107,6 @@ body{
   transform: translateY(-30%);
   width: 35%;
   margin-left: 5%;
-
 }
 .description-hero h1{
   font-size: 45px;
@@ -129,15 +128,85 @@ body{
 }
 /* /hero */
 
-/* section message */
+/* section  */
+.first-section{
+  width: 100%;
+}
 .message{
   width: 100%;
   height: 120px;
-  background-color: grey;
+  background-color: lightgrey;
   text-align: center;
+  padding: 25px;
 }
+.message h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.second-section{
+  width: 100%;
+  margin-top: 5%;
+}
+.second-section::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.col{
+  width: calc(100% / 3);
+  height: 120px;
+}
+.left{
+  float: left;
+}
+.col-left-img{
+  width: 40%;
+  margin: auto;
+}
+.col-img img{
+  max-width: 100%;
+}
+.description{
+  margin: auto;
+  width: 70%;
 
+}
+.description h3{
+  margin-bottom: 8%;
+  font-size: 25px;
+  color: #7CBB02;
+}
+hr{
+  width: 50%;
+  margin: auto;
+  color: black;
 
-/* /section message */
-
+}
+.description p{
+  margin-top: 8%;
+  color: #778899;
+}
+.middle{
+  float: left;
+}
+.col-mid-img{
+  width: 68%;
+  margin: auto;
+}
+.col-mid-img img{
+  max-width: 100%;
+  margin-bottom: 1%;
+}
+.right{
+  float: left;
+}
+.col-right-img{
+  width: 50%;
+  margin: auto;
+}
+.col-right-img img{
+  max-width: 100%;
+  margin-bottom: 1%;
+}
+/* /section*/
 /* /main */
