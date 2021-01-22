@@ -100,7 +100,7 @@ body{
   top: 30%;
   left: 0;
   transform: translateY(-30%);
-  width: 40%;  
+  width: 40%;
 }
 .description-hero h1{
   font-size: 45px;
@@ -240,6 +240,45 @@ body{
 
 .left-img img{
   max-width: 100%;
+}
+
+.fourth-section{  
+  width: 100%;
+  background-color: lightgrey;
+  position: relative;
+  margin-top: 5%;
+}
+
+.fourth-section h3{
+  margin-left: 5%;
+  padding: 40px;
+  font-size: 35px;
+}
+
+.input-choose{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 25%;
+  padding: 5px;
+}
+
+
+.input-choose h4{
+  display: inline-block;
+  margin-right: 10px;
+  color: grey;
+}
+
+.input-choose a{
+  text-decoration: none;
+  color: white;
+  width: 30%;
+  background-color: #7CBB02;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
 }
 /* /section*/
 /* /main */
