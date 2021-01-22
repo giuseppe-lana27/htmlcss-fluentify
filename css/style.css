@@ -242,7 +242,7 @@ body{
   max-width: 100%;
 }
 
-.fourth-section{  
+.fourth-section{
   width: 100%;
   background-color: lightgrey;
   position: relative;
@@ -279,6 +279,16 @@ body{
   padding: 15px;
   border-radius: 5px;
   margin-left: 10px;
+}
+
+.help{
+  width: 100px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+  text-decoration: none;
+  color: white;
 }
 /* /section*/
 /* /main */
