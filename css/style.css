@@ -88,7 +88,6 @@ body{
 .hero{
   margin: auto;
   width: 100%;
-  height: 100%;
   position: relative;
   background-color: #0C325A;
   overflow: hidden;
@@ -136,14 +135,16 @@ body{
 }
 .message{
   width: 100%;
-  height: 120px;
   background-color: lightgrey;
   text-align: center;
-  padding: 25px;
+  padding: 30px;
 }
 .message h2 {
   font-size: 20px;
   margin-bottom: 10px;
+}
+.message p{
+  color: grey;
 }
 .second-section{
   width: 100%;
@@ -156,7 +157,6 @@ body{
 }
 .col{
   width: calc(100% / 3);
-  height: 120px;
 }
 .left{
   float: left;
@@ -165,25 +165,19 @@ body{
   width: 40%;
   margin: auto;
 }
-.col-img img{
-  max-width: 100%;
+.col-left-img img{
+  height: 150px;
 }
 .description{
   margin: auto;
   width: 70%;
-
 }
 .description h3{
   margin-bottom: 8%;
   font-size: 25px;
   color: #7CBB02;
 }
-hr{
-  width: 50%;
-  margin: auto;
-  color: black;
 
-}
 .description p{
   margin-top: 8%;
   color: #778899;
@@ -196,19 +190,20 @@ hr{
   margin: auto;
 }
 .col-mid-img img{
-  max-width: 100%;
-  margin-bottom: 1%;
+  height: 150px;
+
+
 }
 .right{
   float: left;
 }
 .col-right-img{
-  width: 48%;
   margin: auto;
 }
 .col-right-img img{
-  max-width: 100%;
-  margin-bottom: 1%;
+  height: 150px;
+
+
 }
 .third-section{
   width: 100%;
@@ -217,17 +212,15 @@ hr{
 }
 .left-img{
   width: calc(100% / 2);
-  /* margin-top: 35%; */
   float: left;
 
 }
 .side-description{
   width: calc(100% / 2);
-  /* margin-top: 30%; */
   float: left;
   text-align: center;
 }
-.side-description::after{
+.third-section::after{
   content: '';
   display: block;
   clear: both;
