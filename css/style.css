@@ -76,6 +76,7 @@ body{
   border: 1px solid white;
   padding: 10px;
   border-radius: 5px;
+
 }
 .green{
   background-color: #7CBB02;
@@ -90,13 +91,14 @@ body{
   height: 100%;
   position: relative;
   background-color: #0C325A;
+  overflow: hidden;
 }
 
 .hero img{
  width: 80%;
  height: 100%;
  object-fit: cover;
- margin-left: 20%;
+ margin-left: 30%;
  margin-top: 5%;
 }
 
@@ -201,12 +203,54 @@ hr{
   float: left;
 }
 .col-right-img{
-  width: 50%;
+  width: 48%;
   margin: auto;
 }
 .col-right-img img{
   max-width: 100%;
   margin-bottom: 1%;
+}
+.third-section{
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+}
+.left-img{
+  width: calc(100% / 2);
+  /* margin-top: 35%; */
+  float: left;
+
+}
+.side-description{
+  width: calc(100% / 2);
+  /* margin-top: 30%; */
+  float: left;
+  text-align: center;
+}
+.side-description::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.side-description h3{
+  font-size: 35px;
+  margin: 10% 0;
+}
+
+.side-description p{
+  font-size: 18px;
+  color: grey;
+}
+
+.side-description a{
+  font-size: 18px;
+  color: lightblue;
+  margin-left: 0;
+}
+
+.left-img img{
+  max-width: 100%;
 }
 /* /section*/
 /* /main */
