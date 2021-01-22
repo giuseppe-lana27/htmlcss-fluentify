@@ -19,8 +19,8 @@ body{
   background-color: #0C325A;
 }
 .container{
-  margin: auto;
   width: 80%;
+  margin: auto;
 }
 .header-container::after{
   content: '';
@@ -126,10 +126,14 @@ body{
 /* hero */
 
 /* section  */
-.first-section{
-  width: 100%;
+
+.bg-grey{
   background-color: lightgrey;
 }
+.first-section{
+  width: 100%;
+}
+
 .message{
   width: 100%;
   text-align: center;
@@ -216,6 +220,7 @@ body{
   float: left;
   text-align: center;
 }
+
 .third-section::after{
   content: '';
   display: block;
@@ -227,14 +232,19 @@ body{
   margin: 10% 0;
 }
 
+.side{
+  text-align: left;
+}
+
 .side-description p{
+  margin-bottom: 5%;
   font-size: 18px;
   color: grey;
 }
 
 .side-description a{
   font-size: 18px;
-  color: lightblue;
+  color: #1E90FF;
   margin-left: 0;
 }
 
