@@ -10,18 +10,17 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.container{
-  margin: auto;
-  width: 80%;
-}
 /* header */
 .header-container{
   width: 100%;
   margin: auto;
   padding: 10px;
-  background-color: #0C325A;
   position: relative;
-
+  background-color: #0C325A;
+}
+.container{
+  margin: auto;
+  width: 80%;
 }
 .header-container::after{
   content: '';
@@ -36,11 +35,12 @@ body{
 
 .logo img{
   width: 100%;
+  margin-bottom: 1%;
 }
 
 .main-nav{
   width: 55%;
-  margin: 1% 1%;
+  margin: 3% 1%;
 }
 .main-nav ul{
   width: 100%;
@@ -76,29 +76,23 @@ body{
   border: 1px solid white;
   padding: 10px;
   border-radius: 5px;
-
 }
 .green{
   background-color: #7CBB02;
   border: none;
 }
-/* /header */
-/* main */
-/* hero */
 .hero{
-  margin: auto;
   width: 100%;
   position: relative;
-  background-color: #0C325A;
   overflow: hidden;
 }
 
 .hero img{
- width: 80%;
- height: 100%;
- object-fit: cover;
- margin-left: 30%;
- margin-top: 5%;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 30%;
+  margin-top: 5%;
 }
 
 .description-hero{
@@ -106,8 +100,7 @@ body{
   top: 30%;
   left: 0;
   transform: translateY(-30%);
-  width: 35%;
-  margin-left: 5%;
+  width: 40%;  
 }
 .description-hero h1{
   font-size: 45px;
@@ -128,14 +121,17 @@ body{
   clear: both;
 }
 /* /hero */
+/* /header */
+/* main */
+/* hero */
 
 /* section  */
 .first-section{
   width: 100%;
+  background-color: lightgrey;
 }
 .message{
   width: 100%;
-  background-color: lightgrey;
   text-align: center;
   padding: 30px;
 }
